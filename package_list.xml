@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package_list>
+<package name="Email">
+    <res path="packages/apps/Email/UnifiedEmail/res"/>
+ </package> 
+<package name="Launcher3">
+    <res path="packages/apps/Launcher3/WallpaperPicker/res"/>
+ </package> 
+<package name="Settings">
+    <res path="packages/apps/Settings/res_ext"/>
+    <res path="frameworks/opt/setupwizard/navigationbar/res"/>
+ </package> 
+<package name="Dialer">
+   <res path="packages/apps/Dialer/res_ext"/>   
+   <res path="packages/apps/Dialer/InCallUI/res"/>
+   <res path="packages/apps/Dialer/InCallUI/res_ext"/>
+   <res path="packages/apps/ContactsCommon/res"/>
+   <res path="packages/apps/ContactsCommon/res_ext"/>
+   <res path="packages/apps/PhoneCommon/res"/>
+ </package>
+ <package name="Telecom">
+   <res path="packages/services/Telecomm/res_ext"/>
+   <res path="packages/apps/PhoneCommon/res"/>
+ </package>
+ <package name="TeleService">
+   <res path="packages/services/Telephony/res_ext"/>
+   <res path="packages/apps/PhoneCommon/res"/>
+   <res path="packages/services/Telephony/sip/res"/>
+</package>
+<package name="Contacts">
+    <res path="packages/apps/ContactsCommon/res"/>
+    <res path="packages/apps/PhoneCommon/res"/>
+    <res path="packages/apps/Contacts/res_ext"/>
+    <res path="packages/apps/ContactsCommon/res_ext"/>
+ </package>
+<package name="SystemUI">
+    <res path="frameworks/base/packages/Keyguard/res"/>
+ </package>
+
+</package_list>

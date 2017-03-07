@@ -1,0 +1,9 @@
+This is the perso tool which can build perso.
+You should follow steps:
+
+1.unzip this zip file to the root directory of you project
+2.prepare the system.img and userdata.img to the root directory of you project
+3.excute the "makePerso.sh" script
+
+Usage: readlink -f makePerso.sh -p TARGET_PRODUCT -t TOP folder -s ORIGIN_SYSTEM_IMAGE_PATH -u ORIGIN_USERDATA_IMAGE_PATH -m TARGET_THEME -v PERSO_VERSION
+Example: readlink -f makePerso.sh -p alto5 -t . -s system.img -u userdata.img -m DNA -v Y3H1ZZ40BG00
